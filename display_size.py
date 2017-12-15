@@ -1,0 +1,1 @@
+#This program displays the size of the image

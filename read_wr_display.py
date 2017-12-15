@@ -18,6 +18,10 @@ cv2.imshow('Hello World', img)
 #if no argument is given the, program waits till any key is pressed
 cv2.waitKey()
 
+#cv2.imwrite, is used to write an image
+cv2.imwrite('output.jpg', img)
+
+
 #this closes all open windows
 #an important function, failed to call your program will get hanged
 cv2.destroyAllWindows()
